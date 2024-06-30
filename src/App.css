@@ -1,0 +1,70 @@
+/* General styles */
+.App {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu {
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-item:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section styles */
+  .hero-section {
+    margin-top: 60px; /* To avoid overlapping with the fixed navbar */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Add Expense Form and Expense List styles */
+  .content {
+    margin-top: 60px; /* To avoid overlapping with the fixed navbar */
+    padding: 20px;
+  }
+  
+  /* Not Found styles */
+  .not-found {
+    margin-top: 60px; /* To avoid overlapping with the fixed navbar */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .not-found h1 {
+    font-size: 3em;
+  }
+  
+  .not-found p {
+    font-size: 1.5em;
+  }
+  
