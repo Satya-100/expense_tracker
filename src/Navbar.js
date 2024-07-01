@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="brand-title">Expense Tracker</div>
-      <a href="#" className="toggle-button" onClick={toggleMenu}>
+      <a href="" className="toggle-button" onClick={toggleMenu}>
         <span className="bar"></span>
         <span className="bar"></span>
         <span className="bar"></span>
